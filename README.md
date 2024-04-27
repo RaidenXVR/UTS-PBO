@@ -10,6 +10,7 @@ Program ini dibuat untuk memenuhi tugas UTS Mata Kuliah Pemrograman Berorientasi
 Program ini merupakan contoh penggunaan konsep Encapsulation, Inheritance, Abstraction, dan Polymorphism yang sederhana.
 ---
 # Screenshoot Hasil Program
-
+![](./images/ss1.png)
+![](./images/ss2.png)
 
 
