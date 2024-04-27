@@ -3,7 +3,7 @@ public class Planet extends BendaLangit {
     private boolean habitable;
 
 
-    public Planet(int massa, int diameter, String nama, String orbitor, boolean is_habitable) {
+    public Planet(float massa, int diameter, String nama, String orbitor, boolean is_habitable) {
         super(massa, diameter, nama, orbitor);
         habitable = is_habitable;
     }
@@ -12,8 +12,8 @@ public class Planet extends BendaLangit {
     public void info() {
         System.out.println("Informasi Planet: ");
         System.out.println("Nama Planet: " + this.nama);
-        System.out.println("Diameter Planet: " + this.diameter);
-        System.out.println("Massa Planet: " + this.massa);
+        System.out.println("Diameter Planet: " + Integer.toString(this.diameter) + "km");
+        System.out.println("Massa Planet: " +Float.toString( this.massa)+ " Massa Bumi");
     }
 
     public void is_habitable() {

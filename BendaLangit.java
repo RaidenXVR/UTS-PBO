@@ -1,10 +1,10 @@
 abstract class BendaLangit {
-    int massa;
-    int diameter;
-    String nama;
-    String orbitor;
+    protected float massa;
+    protected int diameter;
+    protected String nama;
+    protected String orbitor;
 
-    public BendaLangit(int massa, int diameter, String nama, String orbitor) {
+    public BendaLangit(float massa, int diameter, String nama, String orbitor) {
         this.massa = massa;
         this.diameter = diameter;
         this.nama = nama;
@@ -15,7 +15,7 @@ abstract class BendaLangit {
         
     }
 
-    public void mengorbit() {
+    public final void mengorbit() {
         if (orbitor != null) {
             System.out.println(this.getClass().getName() + " ini mengorbit " + orbitor);
         }
